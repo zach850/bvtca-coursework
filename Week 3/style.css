@@ -28,6 +28,7 @@ body{
     background-color: beige;
 }
 
+
 .email-action1:hover {
     cursor: pointer;
     opacity: 0.5;
@@ -45,6 +46,11 @@ body{
     opacity: 0.5;
 }
 
+#email-icons {
+    float:right; 
+    position: relative;
+    bottom:40px;
+}
 .nav {
     border-bottom: 1px solid #EAEAEB;
     text-align: right;
@@ -79,7 +85,9 @@ label {
     display: none;
 }
 
-@media only screen and (max-width: 3000px) {
+@media only screen and (max-width: 100%) {
+   
+   }
     label {
         display: block;
         cursor: pointer;
@@ -101,7 +109,7 @@ label {
         background-color: white;
         backface-visibility: hidden;
     }
-}
+
  /* left col */
 .col-2 {
     border: none;
@@ -183,6 +191,11 @@ label {
 #card-1:hover{
     cursor: pointer;
     opacity: 0.7;
+}
+
+.card {
+    position: relative;
+    top: 20px;
 }
 
 #card-2:hover{
