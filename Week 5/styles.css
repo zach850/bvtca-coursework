@@ -1,0 +1,332 @@
+@font-face {
+    font-family: VGA;
+    src: url(Fonts/Perfect\ DOS\ VGA\ 437.ttf);
+}
+
+body, html {
+    overflow-x: hidden;
+}
+
+html, body, {
+    height: 100%;
+    width:100%
+}
+
+body{
+    margin: 0rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.55;
+    background-color: black;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+/* Header */
+
+.header{
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    background-color: black;
+    position: relative;
+    
+}
+
+@media screen and (min-width: 48em) {
+    .header{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+}
+
+@media screen and (min-width: 48em) {
+
+#container1 {
+    padding-left: 1rem; 
+    padding-right: 1rem;
+    max-width:75rem; 
+}
+}
+
+.navbar-nav{
+    position: relative;
+    left:40px;
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    font-size: 1.25rem;
+    font-family: "VGA", sans-serif;
+    text-decoration: none;
+}
+
+@media  screen and (min-width: 64em;){
+   .icons {
+        gap: 1.5rem;
+    }
+}
+
+
+.icons {
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    position: relative;
+    left:270px;
+}
+
+@media screen and(min-width: 48rem){
+    .button{
+        padding-left: 2.78em;
+        padding-right: 2.78rem;
+    }
+}
+.button {
+    box-sizing: border-box;
+    margin: 0px;
+    padding-left: 2.78rem;
+    padding-right: 2.78rem;
+    min-width: 0px;
+    appearance: none;
+    display: inline-block;
+    line-height: inherit;
+    text-decoration: none;
+    border: 0px;
+    cursor: pointer;
+    background-image: linear-gradient(90deg, rgb(0,255,209), rgb(0,227,97));
+
+    font-size: 0.857rem;
+    text-align: center;
+    font-weight: 500;
+    font-family: "VGA", sans-serif;
+    position: relative;
+    left: 300px;
+}
+
+/* Main Section */ 
+
+.main-section {
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: none;
+    flex: 1;
+    display: flex;
+    
+}
+
+#main-bod {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    padding-bottom: 8rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+
+}
+#cyber-image {
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://www.cyberkongz.com/static/home/hero_bg.png);
+    position: absolute;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+    z-index: 0;
+    max-height: 90%;
+    max-width: 100%;
+    overflow: hidden;
+    
+}
+
+@media screen and (min-width:48em){
+    #cyber-image{
+        background-position: bottom 30% center;
+        
+    }
+    
+}
+
+#info {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: none;
+    min-height: fit-content;
+    position: relative;
+    left: 0rem;
+    right: 0rem;
+    bottom:0rem;
+    
+}
+
+.cyberimg {
+    box-sizing: border-box;
+    min-width: 0;
+    max-width: 100%;
+    height: auto;
+    z-index: 1;
+    text-align: center;
+}
+
+h1{
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.text-center {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    margin-top: -2rem;
+    margin-bottom: 0rem;
+    font-family: sans-serif;
+    max-width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.55;
+    /* background: radial-gradient(50% 50% at 50% 50%, black 20.62%, white 100%); */
+    background: radial-gradient(50% 50% at 50% 50%, #000000 20.62%, rgba(0, 0, 0, 0) 100%);
+    padding: 5rem;
+}
+
+.linkz{
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    text-decoration: none;
+    color: inherit;
+}
+
+.center-button{
+    margin: 0;
+    text-align: center;
+}
+
+.lm-button {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    appearance: none;
+    display: inline-block;
+    line-height: inherit;
+    border: 0;
+    font-family: sans-serif;
+    cursor: pointer;
+    background: linear-gradient(90deg, #00FFd1, #00e361);
+    color: black;
+    font-size: 0.875rem;
+    text-align: center;
+    font-weight: 500;
+    border-radius: 0px;
+    padding-left: 2.78em;
+    padding-right: 2.78em;
+    padding-top: 0.61em;
+    padding-bottom: 0.61em;
+    transition: 0.3s ease-in-out;
+}
+
+.lower-section {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    background-image: url(/static/home/how_to_mint_bg.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    -webkit-background-position: bottom;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding-top: 8.625rem;
+    padding-bottom: 8.625rem;
+    position: absolute;
+    border-bottom: 4px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(270deg, #1E1D1D 0%, #FF00E5 52.08%, rgba(30, 29, 29, 0) 98.96%);
+}
+
+.body2{
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    height: auto;
+    width:fit-content;
+    background: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0) 100%);
+    position: absolute;
+    left: 0rem;
+    right: 0rem;
+    bottom: 0rem;
+    height: 100%;
+    top: 0rem;
+}
+
+
+.typez{
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    font-family: "VGA",sans-serif;
+    font-weight: 400;
+    line-height: 1.2;
+    font-family: "VGA",sans-serif;
+    font-weight: 500;
+    font-size: 3rem;
+    color: magenta;
+}
+
+@media screen and (min-width: 64em)
+ .gridz{
+    grid-gap: 2rem;
+}
+
+@media screen and (min-width: 48em)
+ .gridz{
+    grid-gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+ }
+
+
+.gridz {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    display: grid;
+    grid-column-gap: 2rem;
+    grid-template-rows: repeat(1, 1fr);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+}
+
+.kong1{
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    padding: 1.5rem;
+    border-radius: 0px;
+    background-color: #202230;
+    color: #a5a5a5;
+}
+
+.grid2 {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    max-width: 100%;
+    height: auto;
+}
+
+
