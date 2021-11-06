@@ -301,13 +301,13 @@ h1{
 
 
 @media screen and(min-width: 64em){
- #gridzz{
+ .threekongz{
     grid-gap: 2rem;
 }
 }
 
 @media screen and (min-width: 48em){
- #gridzz{
+ .threekongz{
     grid-gap: 1rem;
     grid-template-columns: repeat(3, 1fr);
  }   
@@ -322,6 +322,12 @@ h1{
     border-radius: 0px;
     background-color: #202230;
     color: #a5a5a5;
+}
+
+.description{
+    text-align: left;
+    text-decoration: none;
+    padding-top: 10px;
 }
 
 .grid2 {
@@ -386,3 +392,60 @@ h1{
     margin-top: 10px;
 }
 
+/* Footer */
+
+.card {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    background-color: #202230;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.card-body {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: none;
+    max-width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.terms {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: none;
+    gap: 2rem;
+    display: flex;
+    margin-left: 10%;
+}
+
+.words {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: none;
+    font-size: 1.25rem;
+    font-family: "VGA", sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.icons3 {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    align-items: center;
+    justify-content: flex-end;
+    display: flex;
+    margin-left: 10%;
+}
+
+@media  screen and (min-width: 64em){
+    .icons3 {
+        gap: 1rem;
+    }
+    
+}
